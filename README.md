@@ -21,6 +21,4 @@ En el archivo resultado.txt, los datos se muestran:
 El lenguaje Python
 
 # Autores
-Christian Ibañez
-
-Fabian Peña
+Christian Ibañez - Fabian Peña
