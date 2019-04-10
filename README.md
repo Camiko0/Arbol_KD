@@ -14,7 +14,8 @@ Además tiene 2 archivos:
 # Ejecución del proyecto
 Ejecutar la clase inicio.py que importa las clase Datos, el resultado se guardará en el archivo resultado.txt, por lo cual abrir luego de la ejecución.
 En el archivo resultado.txt, los datos se muestran:
-[Nombre del atributo] [Numero de Datos] [Valor Promedio]
+
+    [Nombre del atributo] [Numero de Datos] [Valor Promedio]
 
 # Construido con:
 El lenguaje Python
