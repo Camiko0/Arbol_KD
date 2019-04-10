@@ -1,0 +1,100 @@
+1. Título de la base de datos: datos de reconocimiento de vinos
+	Actualizado el 21 de septiembre de 1998 por C.Blake: información de atributos añadida
+
+2. Fuentes:
+   (a) Forina, M. y otros, PARVUS - Un paquete extensible para datos
+       Exploración, Clasificación y Correlación. Instituto de Farmacéutica
+       y Análisis y Tecnologías de Alimentos, Via Brigata Salerno, 
+       16147 Génova, Italia.
+
+   (b) Stefan Aeberhard, correo electrónico: stefan@coral.cs.jcu.edu.au
+   (c) Julio de 1991
+3. Uso anterior:
+
+   (1)
+   S. Aeberhard, D. Coomans y O. de Vel,
+   Comparación de clasificadores en configuraciones de alta dimensión,
+   Tech. Rep. No. 92-02, (1992), Departamento de Ciencias de la Computación y Depto. De
+   Matemáticas y Estadística, Universidad James Cook de North Queensland.
+   (También enviado a Technometrics).
+
+   Los datos se usaron con muchos otros para comparar varios 
+   clasificadores. Las clases son separables, aunque solo RDA
+   ha logrado una clasificación correcta del 100%.
+   (RDA: 100%, QDA 99.4%, LDA 98.9%, 1NN 96.1% (datos de z transformada))
+   (Todos los resultados usando la técnica de dejar uno)
+
+   En un contexto de clasificación, este es un problema bien planteado 
+   con estructuras de clase "bien educadas". Un buen conjunto de datos
+   para la primera prueba de un nuevo clasificador, pero no muy 
+   desafiante.
+
+   (2) 
+   S. Aeberhard, D. Coomans y O. de Vel,
+   "EL RENDIMIENTO DE CLASIFICACIÓN DE RDA"
+   Tech. Rep. No. 92-01, (1992), Departamento de Ciencias de la Computación y Depto. De
+   Matemáticas y Estadística, Universidad James Cook de North Queensland.
+   (También enviado a Journal of Chemometrics).
+
+   Aquí, los datos se usaron para ilustrar el rendimiento superior de
+   el uso de una nueva función de apreciación con RDA. 
+
+4. Información relevante:
+
+   - Estos datos son el resultado de un análisis químico de
+      vinos cultivados en la misma región en Italia pero derivados de tres
+      diferentes cultivares
+      El análisis determinó las cantidades de 13 constituyentes
+      encontrado en cada uno de los tres tipos de vinos. 
+
+   - Creo que el conjunto de datos inicial tenía alrededor de 30 variables, pero 
+      por alguna razón, solo tengo la versión en 13 dimensiones. 
+      Tenía una lista de las 30 o más variables, pero a). 
+      Lo perdí, y b.), No sabría qué 13 variables
+      están incluidos en el conjunto.
+
+   - Los atributos son (donados por Riccardo Leardi, 
+	riclea@anchem.unige.it)
+ 	1) Alcohol
+ 	2) ácido málico
+ 	3) Ceniza
+	4) Alcalinidad de ceniza  
+ 	5) Magnesio
+	6) Fenoles totales
+ 	7) Flavonoides
+ 	8) Fenoles no flavonoides
+ 	9) Proanthocyanins
+	10) intensidad del color
+ 	11) Hue
+ 	12) OD280 / OD315 de vinos diluidos
+ 	13) Proline            
+
+5. Número de instancias
+
+      	clase 1 59
+	clase 2 71
+	clase 3 48
+
+6. Número de atributos 
+	
+	13
+
+7. Para cada atributo:
+
+	Todos los atributos son continuos
+	
+	No hay estadísticas disponibles, pero sugieren estandarizar
+	variables para ciertos usos (por ejemplo, para nosotros con clasificadores
+	que NO son invariantes de escala)
+
+	NOTA: el primer atributo es el identificador de clase (1-3)
+
+8. Valores de atributo faltantes:
+
+	Ninguna
+
+9. Distribución de clase: cantidad de instancias por clase
+
+      	clase 1 59
+	clase 2 71
+	clase 3 48
